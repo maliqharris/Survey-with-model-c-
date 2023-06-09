@@ -1,0 +1,9 @@
+@model Survey
+<h2>Submitted Info</h2>
+<h3>Name: @Model.Name</h3>
+<h3>Location: @Model.Location</h3>
+<h3>Language: @Model.Language</h3>
+<h3>Comment: @Model.Comment</h3>
+<form  action="http://localhost:5105" method="get">
+        <button type="submit">Go back</button>
+    </form>
